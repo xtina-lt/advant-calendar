@@ -16,7 +16,8 @@ const Doors = ({list, setList, date, setHeader, month}) => {
 
     useEffect(() => {
         setList(shuffleArray(list))
-    }, [])
+    }, [list])
+    
     return (
         <>
             {
