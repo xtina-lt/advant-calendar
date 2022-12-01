@@ -16,7 +16,7 @@ function App() {
   const [list, setList] = useState([
     {
       num: 1,
-      link: "https://alvarotrigo.com/blog/best-css-button-hover-effects/",
+      link: "https://codepen.io/alvarotrigo/pen/JjNwzoE",
       gif: "https://images.milledcdn.com/2020-12-11/pxjK07ijE6rTCpLM/y82jThmNktOK.gif",
     },
     {
@@ -152,6 +152,9 @@ function App() {
           </a>
           <a href={`/${date}`}>
             Today
+          </a>
+          <a href="https://github.com/xtina-lt/advant-calendar" target="_blank" rel="noopener noreferrer">
+
           </a>
         </nav>
         <main>
