@@ -154,7 +154,7 @@ function App() {
             Today
           </a>
           <a href="https://github.com/xtina-lt/advant-calendar" target="_blank" rel="noopener noreferrer">
-
+            GitHub
           </a>
         </nav>
         <main>
