@@ -14,16 +14,16 @@ const Doors = ({list, setList, date, setHeader, month}) => {
         return copy
     };
 
-    useEffect(() => {
-        setList(shuffleArray(list))
-    }, [list])
-    
+    // useEffect(() => {
+    //     setList(shuffleArray(list))
+    // }, [setList])
+
     return (
         <>
             {
                 (month == 11)
                 ?
-                list.map((item, key) => (
+                shuffleArray(list).map((item, key) => (
                     <div className={(item.num <= date) ? "days active" : "days"} key={key}>
                         {
                             (item.num <= date)

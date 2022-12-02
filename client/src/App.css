@@ -38,7 +38,7 @@ header{
   background-color: rgba(255, 0, 0, 0.8);
   border-radius: 2vh;
   height: max-content;
-  margin-bottom: 1vh;
+  margin: 1vh;
   font-size: 6vh;
   color: rgba(255, 255, 255, 0.7);
   font-family: "Miltonian Tattoo";
@@ -50,6 +50,8 @@ nav{
   border-radius: 2vh;
   height: max-content;
   font-size: 3.5vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
   font-family: "Mountains of Christmas";
   animation: fadeInAnimation ease 2s, glow 2s ease-in-out infinite alternate;
 }
@@ -113,11 +115,11 @@ img{
   animation-iteration-count: 1;
   animation-fill-mode: forwards; */
   border-radius: 1vh;
-  width: 45vw; /* width of container */
+  width: 35vw; /* width of container */
   object-fit: cover;
 }
 #present-icon{
-  width: 30vw;
+  width: 25vw;
 }
 
 button {
