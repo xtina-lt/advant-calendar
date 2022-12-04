@@ -12,7 +12,7 @@ function App() {
   const da = d.getDate()
   const [month, setMonth] = useState(d.getMonth())
   const [date, setDate] = useState(da)
-  const [header, setHeader] = useState("Advant Calendar")
+  const [header, setHeader] = useState("Advent Calendar")
   const [list, setList] = useState([
     {
       num: 1,
@@ -127,17 +127,47 @@ function App() {
     {
       num: 23,
       link: "https://www.w3schools.com/css/css3_images.asp",
-      gif: "https://bestanimations.com/media/christmas/1782285845merry-christmas-tree-card-greetings-red-gif.gif"
+      gif: "https://www.123gif.de/gifs/happy-new-year/winter-happy-new-year-0006_2022.gif"
     },
     {
       num: 24,
       link: "https://codepen.io/TackOnes1/pen/MaLQjr",
-      gif: "https://1.bp.blogspot.com/-oVsebIuxUdI/WFxbKqN4T4I/AAAAAAAAkWA/uFCqs16Mt1gzg545hERIvN_hlrQbvjcwgCLcB/s1600/christmas%2Bgif.gif"
+      gif: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b5381e31935145.566750f9d3482.gif"
     },
     {
       num: 25,
       link: "https://pajasevi.github.io/CSSnowflakes/",
-      gif: "https://media4.giphy.com/media/euviDNZfscxPOVSkHa/giphy.gif"
+      gif: "https://1.bp.blogspot.com/-oVsebIuxUdI/WFxbKqN4T4I/AAAAAAAAkWA/uFCqs16Mt1gzg545hERIvN_hlrQbvjcwgCLcB/s1600/christmas%2Bgif.gif"
+    },
+    {
+      num: 26,
+      link: "https://codepen.io/prathkum/pen/OJRvVzY",
+      gif: "https://thumbs.gfycat.com/SimplisticQuerulousElephantbeetle-size_restricted.gif"
+    },
+    {
+      num: 27,
+      link: "https://cssdeck.com/labs/christmas-button",
+      gif: "https://media2.giphy.com/media/HyDfNCZlTn5iU/giphy.gif"
+    },
+    {
+      num: 28,
+      link: "https://www.w3schools.com/css/css3_images.asp",
+      gif: "https://bestanimations.com/media/happyholidays/57419367happy-holidays-red-sparkle-animated-gif.gif"
+    },
+    {
+      num: 29,
+      link: "https://codepen.io/TackOnes1/pen/MaLQjr",
+      gif: "https://aamadmi.in/wp-content/uploads/2019/12/tenor.gif"
+    },
+    {
+      num: 30,
+      link: "https://pajasevi.github.io/CSSnowflakes/",
+      gif: "https://i.pinimg.com/originals/b8/ea/72/b8ea72bf3332760fbec8fe59c968f51c.gif"
+    },
+    {
+      num: 31,
+      link: "https://pajasevi.github.io/CSSnowflakes/",
+      gif: "https://bestanimations.com/media/new-year/1749856145happy-new-year-great-gatsby-toast-fireworks-animated-gif.gif"
     }
   ])
   return (

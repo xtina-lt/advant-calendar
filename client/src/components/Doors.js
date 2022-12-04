@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 const Doors = ({list, setList, date, setHeader, month}) => {
-    setHeader("Advant Calander")
+
     const shuffleArray = (arr) => {
         var copy = [...list]
         for (var i = arr.length - 1; i > 0; i--) {
