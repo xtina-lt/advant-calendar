@@ -23,7 +23,7 @@ const Doors = ({list, setList, date, setHeader, month}) => {
             {
                 (month == 11)
                 ?
-                shuffleArray(list).map((item, key) => (
+                shuffleArray(list)?.map((item, key) => (
                     <div className={(item.num <= date) ? "days active" : "days"} key={key}>
                         {
                             (item.num <= date)
