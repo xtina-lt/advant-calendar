@@ -170,6 +170,8 @@ function App() {
       gif: "https://bestanimations.com/media/new-year/1749856145happy-new-year-great-gatsby-toast-fireworks-animated-gif.gif"
     }
   ])
+
+  
   return (
     <>
       <BrowserRouter>

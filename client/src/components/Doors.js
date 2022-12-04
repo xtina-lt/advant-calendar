@@ -2,28 +2,24 @@ import React from 'react'
 import { useState, useEffect } from "react";
 const Doors = ({list, setList, date, setHeader, month}) => {
 
-    const shuffleArray = (arr) => {
+    useEffect(() => {
         var copy = [...list]
-        for (var i = arr.length - 1; i > 0; i--) {
+        for (var i = copy.length - 1; i > 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
-            var temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+            var temp = copy[i];
+            copy[i] = copy[j];
+            copy[j] = temp;
         }
         console.log(copy)
-        return copy
-    };
-
-    // useEffect(() => {
-    //     setList(shuffleArray(list))
-    // }, [setList])
+        setList(copy)
+    }, [setList])
 
     return (
         <>
             {
                 (month == 11)
                 ?
-                shuffleArray(list)?.map((item, key) => (
+                list.map((item, key) => (
                     <div className={(item.num <= date) ? "days active" : "days"} key={key}>
                         {
                             (item.num <= date)
